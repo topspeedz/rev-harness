@@ -36,6 +36,7 @@ description: "하네스 진화 스킬. 사용 중인 하네스의 실행 결과�
 - 에이전트가 반복적으로 실패/재시도한 패턴
 - 사용자가 오케스트레이터를 우회해 수동으로 작업한 흔적 (오케스트레이터 트리거 실패 의심 → description 확장 후보)
 - 오케스트레이터에 v1 유물(TeamCreate/TeamDelete/실험 플래그)이 남아 있음 → harness 스킬의 마이그레이션 절차 안내
+- 오케스트레이터가 조율에 `Agent(name:)`/`SendMessage`/`TaskCreate`를 씀(Orca 조율 이전 방식) → harness 스킬의 전환 절차 안내
 
 ### Phase 2: 피드백 유형 분류 및 수정 대상 매핑
 
